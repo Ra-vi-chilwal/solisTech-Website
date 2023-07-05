@@ -2,16 +2,23 @@
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
-import PricingBox from "./PricingBox";
-
-const Pricing = () => {
+import KeyFeatureBox from "./KeyFeatureBox";
+import Image from "next/image";
+const KeyFeature = () => {
   const [isMonthly, setIsMonthly] = useState(true);
-
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="KeyFeature" className="relative z-10 py-16 md:py-20 lg:py-28" style={{position:"relative"}}>
+        <Image
+                  src="/images/Ellipse.png"
+                  style={{ position: "absolute", left: "0",  }}
+                  alt="logo"
+                  width={150}
+                  height={150}
+                  className="hidden  dark:block"
+                />
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
+          title="Simple and Affordable KeyFeature"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
           width="665px"
@@ -61,7 +68,7 @@ const Pricing = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
+          {/* <KeyFeatureBox
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
@@ -73,21 +80,21 @@ const Pricing = () => {
             <OfferList text="Email Support" status="active" />
             <OfferList text="Lifetime Access" status="inactive" />
             <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
+          </KeyFeatureBox> */}
+          {/* <KeyFeatureBox
             packageName="Basic"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
+          > */}
+            {/* <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
             <OfferList text="Commercial Use" status="active" />
             <OfferList text="Email Support" status="active" />
             <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
+            <OfferList text="Free Lifetime Updates" status="inactive" /> */}
+          {/* </KeyFeatureBox>
+          <KeyFeatureBox
             packageName="Plus"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
@@ -99,7 +106,7 @@ const Pricing = () => {
             <OfferList text="Email Support" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
+          </KeyFeatureBox> */}
         </div>
       </div>
 
@@ -161,4 +168,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default KeyFeature;

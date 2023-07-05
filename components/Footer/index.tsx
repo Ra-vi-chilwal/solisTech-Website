@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+// import SoliTech from './'
 const Footer = () => {
   return (
     <>
@@ -14,14 +14,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="images/logo/logo-2.svg"
+                    src="/images/logo/SoliTech-01.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="images/logo/logo.svg"
+                  src="/images/logo/SoliTech-01.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -114,7 +114,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Pricing{" "}
+                      KeyFeature{" "}
                     </a>
                   </li>
                   <li>
@@ -208,7 +208,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+            Copyright © 2023. Designed with 💙 by Solis Development Team All rights reserved 
             </p>
           </div>
         </div>

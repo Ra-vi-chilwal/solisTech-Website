@@ -38,6 +38,13 @@ const Brands = () => {
   return (
     <section className="pt-16">
       <div className="container">
+        <div className="wow fadeInUp w-full mx-auto text-center">
+        <h2 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+        Who We Work With
+        </h2>
+        <p className="text-base pb-5 !leading-relaxed text-body-color md:text-lg">As a leading mobile app development company in USA and India, we worked with 2000+ businesses <br/> either it is a start-up  or enterprise and delivers the best solution in the industry. At Hyperlink <br/> InfoSystem, we offer a broad range of  app development services 
+           based on business requirements.</p>
+        </div>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div

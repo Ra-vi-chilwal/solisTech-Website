@@ -21,31 +21,24 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                How Can Our Services Drive Your Business Growth?
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Our range of digital marketing services comprises mobile apps, web apps, e-commerce apps, We also provide content marketing, PPC, social media marketing web, and e-commerce website designing. We have become one of the best digital marketing company through our professionalism and dedicated service. We at Digital Polaris are focused to make our clients attain their 
+                 services. So, what are you waiting for? Come along with us on the journey of brand building.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+
+                Let’s Create Big Stories Together
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                Technology in our DNA. We don’t just deliver solutions, we shape your brand.
+Choosing us, your best decision made.
                 </p>
               </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
-              </div>
+           
             </div>
           </div>
         </div>

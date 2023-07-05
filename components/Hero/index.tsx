@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const Hero = () => {
   return (
     <>
@@ -15,30 +15,30 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Free and Open-Source Next.js Template for Startup & SaaS
+                Elevate Your Digital Journey: Embrace the Power of IT
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Startup is free Next.js template for startups and SaaS business websites comes with all the essential pages, components, and sections you need to launch a complete business website, built-with Next 13.x and Tailwind CSS.
+                Welcome to our Solis Technology, where innovation meets possibility! We are dedicated to empowering individuals and businesses in the ever-evolving digital world.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="#"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                   🔥 Get Pro
+                   Start Free
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="#"
                     className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
-                    Star on GitHub
+                  Learn more →
                   </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
+         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -175,7 +175,9 @@ const Hero = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+      
+        </div> 
+      
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"

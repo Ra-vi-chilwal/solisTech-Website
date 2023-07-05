@@ -54,17 +54,17 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                    src="/images/logo/SoliTech-01.svg"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={250}
+                  height={83}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                          src="/images/logo/SoliTech-01.svg"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={250}
+                  height={83}
                   className="hidden w-full dark:block"
                 />
               </Link>
